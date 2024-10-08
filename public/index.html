@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Lightweight Chat</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="chat-container">
+	<ul id="messages"></ul>
+	<form id="form" action="">
+		<input id="input" autocomplete="off" placeholder="Введите сообщение..." /><button>Отправить</button>
+	</form>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
